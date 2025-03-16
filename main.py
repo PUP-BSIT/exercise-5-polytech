@@ -41,7 +41,7 @@ if answer == "c":
     print("Correcrt! The life span of cats is 10-15 years.")
     print(f"Your score is {score + 1}") 
     score +=1
-else: 
+else:
     print("Incorrent! The correct answer is c.")
     print(f"Your score is {score}")
 
@@ -65,7 +65,7 @@ if answer == "c":
     score +=1
 else:
     print("Incorrect! The answer is c.")
-    print("f(your score is {score}")
+    print(f"(your score is {score}")
 
 print("\n\n----------------------------------------------------------------------------\n\n")
 print("Add Questions")
