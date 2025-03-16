@@ -20,7 +20,7 @@ if answer == "b":
     print(f"Your score is {score + 1}")
     score += 1
 else:
-    print("Incorrent! The correct answer  is b.")
+    print("Incorrect! The correct answer  is b.")
     print(f"Your score is {score}")
 
 print("\n\n----------------------------------------------------------------------------\n\n")
@@ -35,8 +35,8 @@ print("\n\n---------------------------------------------------------------------
 
 total_score = score
 
-if total_score >= 3  and total_score <=5:
-    print(f"You have passed the quiz!, your final score is {total_score}")
+if total_score >= 3  and total_score <= 5:
+    print(f"You have passed the quiz!, your final score is {total_score}.")
 else:
-    print(f"You have failed the quiz, your final score is {total_score}. Better luck next time!")
+    print(f"You have failed the quiz, your final score is {total_score}. Better luck next time!.")
 
