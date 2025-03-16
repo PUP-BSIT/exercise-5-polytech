@@ -24,11 +24,11 @@ else:
     print(f"Your score is {score}")
 
 print("\n\n----------------------------------------------------------------------------\n\n")
-print("(Niones, Zyra Joy O.) What is the life maximum life span of cats?\n")
-choice_a = "a.) 5-8 years"
-choice_b = "b.) 9 years"
-choice_c = "c.) 10- 15 years"
-choice_d = "d.) 22-30 years "
+print("2. (Niones, Zyra Joy O.) What is the life maximum life span of cats?\n")
+choice_a = "\ta.) 5-8 years"
+choice_b = "\tb.) 9 years"
+choice_c = "\tc.) 10- 15 years"
+choice_d = "\td.) 22-30 years "
 
 print(choice_a)
 print(choice_b)
@@ -46,11 +46,11 @@ else:
     print(f"Your score is {score}")
 
 print("\n\n----------------------------------------------------------------------------\n\n")
-print("(Niones, Zyra Joy O.) What creature has blue blood due to copper instead of iron?\n")
-choice_a = "a.) Lobster"
-choice_b = "b.) Octopus"
-choice_c = "c.) Horsehoe Crab"
-choice_d = "d.) Scorpion "
+print("3. (Niones, Zyra Joy O.) What creature has blue blood due to copper instead of iron?\n")
+choice_a = "\ta.) Lobster"
+choice_b = "\tb.) Octopus"
+choice_c = "\tc.) Horsehoe Crab"
+choice_d = "\td.) Scorpion "
 
 print(choice_a)
 print(choice_b)
