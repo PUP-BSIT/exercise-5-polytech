@@ -35,14 +35,14 @@ print(choice_b)
 print(choice_c)
 print(choice_d)
 
-answer = input("Enter your answer:").lower()
+answer = input("\nEnter your answer:").lower()
 
 if answer == "c":
-    print("Correcrt! The life span of cats is 10-15 years.")
+    print("Correct! The life span of cats is 10-15 years.")
     print(f"Your score is {score + 1}") 
     score +=1
 else:
-    print("Incorrent! The correct answer is c.")
+    print("Incorrect! The correct answer is c.")
     print(f"Your score is {score}")
 
 print("\n\n----------------------------------------------------------------------------\n\n")
@@ -57,10 +57,10 @@ print(choice_b)
 print(choice_c)
 print(choice_d)
 
-answer = input("Enter your answer:").lower()
+answer = input("\nEnter your answer:").lower()
 
 if answer == "c":
-    print("Correcrt! The Horseshoe Crab has blue blood due to copper instead of iron.")
+    print("Correct! The Horseshoe Crab has blue blood due to copper instead of iron.")
     print(f"Your score is {score + 1}") 
     score +=1
 else:
