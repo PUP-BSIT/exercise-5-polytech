@@ -24,9 +24,49 @@ else:
     print(f"Your score is {score}")
 
 print("\n\n----------------------------------------------------------------------------\n\n")
-print("Add Questions")
+print("(Niones, Zyra Joy O.) What is the life maximum life span of cats?\n")
+choice_a = "a.) 5-8 years"
+choice_b = "b.) 9 years"
+choice_c = "c.) 10- 15 years"
+choice_d = "d.) 22-30 years "
+
+print(choice_a)
+print(choice_b)
+print(choice_c)
+print(choice_d)
+
+answer = input("Enter your answer:").lower()
+
+if answer == "c":
+    print("Correcrt! The life span of cats is 10-15 years.")
+    print(f"Your score is {score + 1}") 
+    score +=1
+else: 
+    print("Incorrent! The correct answer is c.")
+    print(f"Your score is {score}")
+
 print("\n\n----------------------------------------------------------------------------\n\n")
-print("Add Questions")
+print("(Niones, Zyra Joy O.) What creature has blue blood due to copper instead of iron?\n")
+choice_a = "a.) Lobster"
+choice_b = "b.) Octopus"
+choice_c = "c.) Horsehoe Crab"
+choice_d = "d.) Scorpion "
+
+print(choice_a)
+print(choice_b)
+print(choice_c)
+print(choice_d)
+
+answer = input("Enter your answer:").lower()
+
+if answer == "c":
+    print("Correcrt! The Horseshoe Crab has blue blood due to copper instead of iron.")
+    print(f"Your score is {score + 1}") 
+    score +=1
+else:
+    print("Incorrect! The answer is c.")
+    print("f(your score is {score}")
+
 print("\n\n----------------------------------------------------------------------------\n\n")
 print("Add Questions")
 print("\n\n----------------------------------------------------------------------------\n\n")
