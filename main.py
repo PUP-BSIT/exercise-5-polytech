@@ -1,14 +1,12 @@
 #PolyTech Quiz
 score = 0
 
-print("\n------------------------------[POLYTECH QUIZ]-------------------------------\n\n")
+print("\n--------------------------------------[POLYTECH QUIZ]---------------------------------------\n\n")
 print("1. (Kalelle Mae B. Victorio): The Boötes Void is referred to as 'The Great Nothing' because: \n")
 choice_a = "\ta.) left over void from the Big Bang where no matter could form"
 choice_b = "\tb.) It contains almost no galaxies or stars and is mostly empty space"
 choice_c = "\tc.) It is a massive black hole that absorbs all surrounding light and matter"
 choice_d = "\td.) It is a region of space where time does not exist"
-
-
 
 print(choice_a)
 print(choice_b)
@@ -22,9 +20,8 @@ if answer == "b":
     score += 1
 else:
     print("Incorrect! The correct answer  is b.")
-    
 
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 print("2. (Kalelle Mae B. Victorio): Which of the following best describes the Nazi concept of 'Lebensraum'?\n")
 choice_a = "\ta.) A military strategy for defending German borders"
 choice_b = "\tb.) To restrict the rights of jewish people"
@@ -44,7 +41,7 @@ if answer == "c":
 else:
     print("Incorrect! The correct answer is c.")
    
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 print("3. (Zyra Joy O. Niones): What is the life maximum life span of cats?\n")
 choice_a = "\ta.) 5-8 years"
 choice_b = "\tb.) 9 years"
@@ -64,8 +61,7 @@ if answer == "c":
 else:
     print("Incorrect! The correct answer is c.")
    
-
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 print("4. (Zyra Joy O. Niones): What creature has blue blood due to copper instead of iron?\n")
 choice_a = "\ta.) Lobster"
 choice_b = "\tb.) Octopus"
@@ -85,8 +81,7 @@ if answer == "c":
 else:
     print("Incorrect! The answer is c.")
     
-
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 print("5. (Annie Rose S. Raquem): Which social media platform introduced the 'Stories' feature first?\n")
 choice_a = "\ta.) Snapchat"
 choice_b = "\tb.) Instagram"
@@ -106,8 +101,7 @@ if answer == "a":
 else:
     print("Incorrect! The correct answer is a.")
     
-
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 print("6. (Annie Rose S. Raquem): Which social media platform is known for the 'Like' button with a thumbs-up icon?\n")
 choice_a = "\ta.) Twitter"
 choice_b = "\tb.) Instagram"
@@ -128,7 +122,7 @@ else:
     print("Incorrect! The correct answer is c.")
    
 
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 print("7. (John Keith B. Villarta): Which Philippine dish is made of fertilized duck egg with a developing embryo inside?\n")
 choice_a = "\ta.) Balut"
 choice_b = "\tb.) Kwek-kwek"
@@ -148,7 +142,7 @@ if answer == "a":
 else:
     print("Incorrect! The correct answer is a.")
 
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 print("8. (John Keith B. Villarta): How many bones are in the adult human body?\n")
 choice_a = "\ta.) 180"
 choice_b = "\tb.) 206"
@@ -168,12 +162,12 @@ if answer == "b":
 else:
     print("Incorrect! The correct answer is b.")
 
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 print("9. (Mikee C. Capilitan): The fear of long words is called?\n")
 choice_a = "\ta.) Hippopotomonstrosesquippedaliophobia "
-choice_b = "\tb.)Sesquipedalophobia"
-choice_c = "\tc.)Chronophobia"
-choice_d = "\td.)Phobophobia"
+choice_b = "\tb.) Sesquipedalophobia"
+choice_c = "\tc.) Chronophobia"
+choice_d = "\td.) Phobophobia"
 
 print(choice_a)
 print(choice_b)
@@ -188,13 +182,13 @@ if answer == "a":
 else:
     print("Incorrect! The correct answer is a.")
 
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 print("10. (Mikee C. Capilitan) Which ocean is the deepest in the world?\n")
 
-choice_a = "\ta.)Atlantic Ocean"
-choice_b = "\tb.)Indian Ocean"
-choice_c = "\tc.)Arctic Ocean"
-choice_d = "\td.)Pacific Ocean"
+choice_a = "\ta.) Atlantic Ocean"
+choice_b = "\tb.) Indian Ocean"
+choice_c = "\tc.) Arctic Ocean"
+choice_d = "\td.) Pacific Ocean"
 
 print(choice_a)
 print(choice_b)
@@ -209,7 +203,7 @@ if answer == "d":
 else:
     print("Incorrect! The correct answer is d.")
 
-print("\n\n----------------------------------------------------------------------------\n\n")
+print("\n\n--------------------------------------------------------------------------------------------\n\n")
 
 total_score = score
 
