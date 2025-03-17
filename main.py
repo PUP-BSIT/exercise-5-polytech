@@ -129,9 +129,45 @@ else:
    
 
 print("\n\n----------------------------------------------------------------------------\n\n")
-print("Add Questions")
+print("7. (John Keith B. Villarta): Which Philippine dish is made of fertilized duck egg with a developing embryo inside?\n")
+choice_a = "\ta.) Balut"
+choice_b = "\tb.) Kwek-kwek"
+choice_c = "\tc.) Penoy"
+choice_d = "\td.) Penoy"
+
+print(choice_a)
+print(choice_b)
+print(choice_c)
+print(choice_d)
+
+answer = input("\nEnter your answer: ").lower()
+
+if answer == "a":
+    print("Correct! Balut is a fertilized duck egg with a developing embryo inside, often boiled and eaten with salt or vinegar.")
+    score +=1
+else:
+    print("Incorrect! The correct answer is a.")
+
 print("\n\n----------------------------------------------------------------------------\n\n")
-print("Add Questions")
+print("8. (John Keith B. Villarta): How many bones are in the adult human body?\n")
+choice_a = "\ta.) 180"
+choice_b = "\tb.) 206"
+choice_c = "\tc.) 220"
+choice_d = "\td.) 150"
+
+print(choice_a)
+print(choice_b)
+print(choice_c)
+print(choice_d)
+
+answer = input("\nEnter your answer: ").lower()
+
+if answer == "b":
+    print("Correct! The adult human body has 206 bones, which form the skeletal system..")
+    score +=1
+else:
+    print("Incorrect! The correct answer is b.")
+
 print("\n\n----------------------------------------------------------------------------\n\n")
 
 total_score = score
