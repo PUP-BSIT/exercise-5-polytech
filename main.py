@@ -26,7 +26,7 @@ else:
 
 print("\n\n----------------------------------------------------------------------------\n\n")
 print("2. (Kalelle Mae B. Victorio): Which of the following best describes the Nazi concept of 'Lebensraum'?\n")
-choice_a = "\ta.) A military stategy for defending German borders"
+choice_a = "\ta.) A military strategy for defending German borders"
 choice_b = "\tb.) To restrict the rights of jewish people"
 choice_c = "\tc.) The idea that Germany needed to expand its territory"
 choice_d = "\td.) A propaganda strategy to manipulate public opinion"
@@ -36,7 +36,7 @@ print(choice_b)
 print(choice_c)
 print(choice_d)
 
-answer = input("\nEnter your answer:").lower()
+answer = input("\nEnter your answer: ").lower()
 
 if answer == "c":
     print("Correct! 'Lebensraum' refers to the idea that Germany needed to expand its territory.")
@@ -48,15 +48,15 @@ print("\n\n---------------------------------------------------------------------
 print("3. (Zyra Joy O. Niones): What is the life maximum life span of cats?\n")
 choice_a = "\ta.) 5-8 years"
 choice_b = "\tb.) 9 years"
-choice_c = "\tc.) 10- 15 years"
-choice_d = "\td.) 22-30 years "
+choice_c = "\tc.) 10-15 years"
+choice_d = "\td.) 22-30 years"
 
 print(choice_a)
 print(choice_b)
 print(choice_c)
 print(choice_d)
 
-answer = input("\nEnter your answer:").lower()
+answer = input("\nEnter your answer: ").lower()
 
 if answer == "c":
     print("Correct! The life span of cats is 10-15 years.")
@@ -69,15 +69,15 @@ print("\n\n---------------------------------------------------------------------
 print("4. (Zyra Joy O. Niones): What creature has blue blood due to copper instead of iron?\n")
 choice_a = "\ta.) Lobster"
 choice_b = "\tb.) Octopus"
-choice_c = "\tc.) Horsehoe Crab"
-choice_d = "\td.) Scorpion "
+choice_c = "\tc.) Horseshoe Crab"
+choice_d = "\td.) Scorpion"
 
 print(choice_a)
 print(choice_b)
 print(choice_c)
 print(choice_d)
 
-answer = input("\nEnter your answer:").lower()
+answer = input("\nEnter your answer: ").lower()
 
 if answer == "c":
     print("Correct! The Horseshoe Crab has blue blood due to copper instead of iron.")
@@ -98,7 +98,7 @@ print(choice_b)
 print(choice_c)
 print(choice_d)
 
-answer = input("\nEnter your answer:").lower()
+answer = input("\nEnter your answer: ").lower()
 
 if answer == "a":
     print("Correct! Snapchat was the first platform to introduce 'Stories' in 2013, which was later adopted by others.")
@@ -119,7 +119,7 @@ print(choice_b)
 print(choice_c)
 print(choice_d)
 
-answer = input("\nEnter your answer:").lower()
+answer = input("\nEnter your answer: ").lower()
 
 if answer == "c":
     print("Correct! Facebook introduced the 'Like' button in 2009, represented by a thumbs-up icon.")
