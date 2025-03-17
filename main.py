@@ -169,11 +169,51 @@ else:
     print("Incorrect! The correct answer is b.")
 
 print("\n\n----------------------------------------------------------------------------\n\n")
+print("9. (Mikee C. Capilitan): The fear of long words is called?\n")
+choice_a = "\ta.) Hippopotomonstrosesquippedaliophobia "
+choice_b = "\tb.)Sesquipedalophobia"
+choice_c = "\tc.)Chronophobia"
+choice_d = "\td.)Phobophobia"
+
+print(choice_a)
+print(choice_b)
+print(choice_c)
+print(choice_d)
+
+answer = input("\nEnter your answer: ").lower()
+
+if answer == "a":
+    print("Correct! The Roman poet Horace first used the 36-letter word in the 1st century BCE to mock writers who overused long words.")
+    score +=1
+else:
+    print("Incorrect! The correct answer is a.")
+
+print("\n\n----------------------------------------------------------------------------\n\n")
+print("10. (Mikee C. Capilitan) Which ocean is the deepest in the world?\n")
+
+choice_a = "\ta.)Atlantic Ocean"
+choice_b = "\tb.)Indian Ocean"
+choice_c = "\tc.)Arctic Ocean"
+choice_d = "\td.)Pacific Ocean"
+
+print(choice_a)
+print(choice_b)
+print(choice_c)
+print(choice_d)
+
+answer = input("\nEnter your answer: ").lower()
+
+if answer == "d":
+    print("Correct! The Mariana Trench, located in the Pacific Ocean, is the deepest part, reaching about 36,000 feet or 11,000 meters.")
+    score +=1
+else:
+    print("Incorrect! The correct answer is d.")
+
+print("\n\n----------------------------------------------------------------------------\n\n")
 
 total_score = score
 
 if total_score >= 5 and total_score <= 10:
     print(f"\nYou have passed the quiz!, your final score is {total_score}.\n")
 else:
-    print(f"\nYou have failed the quiz, your final score is {total_score}. Better luck next time!.\n")
-
+    print(f"You have failed the quiz, your final score is {total_score}. Better luck next time!.\n")
