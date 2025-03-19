@@ -127,7 +127,7 @@ print("7. (John Keith B. Villarta): Which Philippine dish is made of fertilized 
 choice_a = "\ta.) Balut"
 choice_b = "\tb.) Kwek-kwek"
 choice_c = "\tc.) Penoy"
-choice_d = "\td.) Penoy"
+choice_d = "\td.) Adobo"
 
 print(choice_a)
 print(choice_b)
